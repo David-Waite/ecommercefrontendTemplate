@@ -1,0 +1,16 @@
+:root {
+  --primary: ;
+  --black: #191d1b;
+  --background: #ffffff;
+  --white: #ffffff;
+  --grey: #606060;
+  --error: #a83c23;
+  --max-width: 1500px;
+  --baseFont: 17.5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+.imageContainer {
+  height: calc((((1500px - 160px) / 5) * 1.5));
+  position: relative;
+  /* (total view width / amount of padding total (container + total gap)) / amount of col - 3 * 2) */
+  background-color: grey;
+}
+
+@media (max-width: 1500px) {
+  .imageContainer {
+    height: calc((100vw - 80px - (var(--margin1000) * 2)) / 4);
+    /* (total view width / amount of padding total (container + total gap)) / amount of col - 3 * 2) */
+  }
+}
+
+@media (max-width: 1000px) {
+  .imageContainer {
+    height: calc((100vw - 32px - (var(--margin1000) * 2)) / 2 * 1.5);
+    /* (total view width / amount of padding total (container + total gap)) / amount of col - 3 * 2) */
+  }
+}
+
+@media (max-width: 778) {
+  .imageContainer {
+    height: calc((100vw - 8px - (var(--marginMobile) * 2)) / 2 * 1.5);
+    /* (total view width / amount of padding total (container + total gap)) / amount of col - 3 * 2) */
+  }
+}

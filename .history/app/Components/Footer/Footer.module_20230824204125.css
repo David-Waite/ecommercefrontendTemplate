@@ -1,0 +1,7 @@
+.main {
+  text-align: center;
+}
+
+.main p {
+  font-size: var(--fontMinus2);
+}

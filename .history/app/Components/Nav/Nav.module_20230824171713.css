@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: green;
+  width: var(--max-width);
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 27.34px;
+}

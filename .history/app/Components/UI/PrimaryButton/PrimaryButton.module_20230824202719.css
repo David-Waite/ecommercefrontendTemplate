@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--white);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: var(--fontMinus1);
+}
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.container:hover {
+  background-color: var(--hoverGrey);
+}

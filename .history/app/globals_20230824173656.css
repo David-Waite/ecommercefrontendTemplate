@@ -1,0 +1,26 @@
+:root {
+  --primary: ;
+  --black: #191d1b;
+  --background: #ffffff;
+  --white: #ffffff;
+  --grey: #606060;
+  --error: #a83c23;
+  --max-width: 1500px;
+  --fontBase: 17.5px;
+  --fontPlus1: 21.88px;
+  --fontPlus2: 27.34px;
+  --fontPlus3: 34.18px;
+  --fontMinus1: 14px;
+  --fontMinus2: 11.2px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}

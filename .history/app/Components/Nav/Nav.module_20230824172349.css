@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px auto;
+  background-color: green;
+  width: var(--max-width);
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo {
+  font-size: var(--fontPlus2);
+}

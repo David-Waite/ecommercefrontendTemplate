@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: green;
+  width: var(--max-width);
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo {
+  font-size: var(--fontPlus2);
+}

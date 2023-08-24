@@ -1,0 +1,14 @@
+.container {
+  background-color: var(--white);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: var(--fontMinus1);
+}
+
+.dark {
+}
+
+.container:hover {
+  background-color: var(--hoverGrey);
+}

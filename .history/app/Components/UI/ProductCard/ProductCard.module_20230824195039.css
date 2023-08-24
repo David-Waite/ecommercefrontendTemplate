@@ -1,0 +1,5 @@
+.imageContainer {
+  height: calc((((100vw - 200px) / 6) / 3) * 3);
+  /* (total view width / amount of padding total (container + total gap)) / amount of col - 3 * 2) */
+  background-color: grey;
+}

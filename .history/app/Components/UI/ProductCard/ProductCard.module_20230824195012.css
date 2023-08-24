@@ -1,0 +1,4 @@
+.imageContainer {
+  height: calc((((100vw - 200px) / 6) / 3) * 2);
+  background-color: grey;
+}
