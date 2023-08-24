@@ -18,12 +18,6 @@ export default function RootLayout({ children }) {
     setNavOpen((prev) => !prev);
   }
 
-  function handleBodyClick() {
-    if (navOpen) {
-      setNavOpen(false);
-    }
-  }
-
   const noScrollStyle = {
     overflow: navOpen && "hidden",
   };

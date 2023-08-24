@@ -49,6 +49,7 @@
   transition: 0.3s;
   overflow: hidden;
   background-color: white;
+  cursor: pointer;
 }
 
 .toggleMenuIcon {

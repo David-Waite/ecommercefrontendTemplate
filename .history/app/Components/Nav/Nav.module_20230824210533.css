@@ -27,9 +27,7 @@
 .iconsContainer {
   display: flex;
   gap: 16px;
-  cursor: pointer;
 }
-
 .nav a {
   text-decoration: none;
   color: var(--black);
@@ -44,22 +42,17 @@
   width: 400px;
   left: 0;
   top: 113px;
-  z-index: 2;
-  height: 100vh;
+  position: fixed;
+  height: calc(100vh - 113px);
   transition: 0.3s;
   overflow: hidden;
   background-color: white;
-}
-
-.toggleMenuIcon {
-  cursor: pointer;
 }
 .moblieMenu a {
   padding: 16px 32px;
 }
 
-.moblieMenu a:hover,
-.selectedStyle {
+.moblieMenu a:hover {
   background-color: var(--hoverGrey);
 }
 .menu,

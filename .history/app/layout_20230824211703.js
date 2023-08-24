@@ -18,23 +18,14 @@ export default function RootLayout({ children }) {
     setNavOpen((prev) => !prev);
   }
 
-  function handleBodyClick() {
-    if (navOpen) {
-      setNavOpen(false);
-    }
-  }
-
   const noScrollStyle = {
+    maxHeight: navOpen === true ? "100vh" : "none",
     overflow: navOpen && "hidden",
   };
 
   return (
     <html lang="en">
-      <body
-        className={inter.className}
-        style={noScrollStyle}
-        onClick={handleBodyClick}
-      >
+      <body className={inter.className} style={noScrollStyle}>
         <Nav navOpen={navOpen} toggleMenu={handleMenuOpen} />
         {children}
         <Footer />

@@ -49,9 +49,6 @@
   transition: 0.3s;
   overflow: hidden;
   background-color: white;
-}
-
-.toggleMenuIcon {
   cursor: pointer;
 }
 .moblieMenu a {

@@ -50,12 +50,9 @@
   overflow: hidden;
   background-color: white;
 }
-
-.toggleMenuIcon {
-  cursor: pointer;
-}
 .moblieMenu a {
   padding: 16px 32px;
+  cursor: pointer;
 }
 
 .moblieMenu a:hover,

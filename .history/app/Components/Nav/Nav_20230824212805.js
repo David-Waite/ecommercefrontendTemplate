@@ -18,9 +18,7 @@ export default function Nav({ navOpen, toggleMenu }) {
         {!navOpen && (
           <PiListLight fontSize={24} className={styles.toggleMenuIcon} />
         )}
-        {navOpen && (
-          <PiXLight fontSize={24} className={styles.toggleMenuIcon} />
-        )}
+        {navOpen && <PiXLight fontSize={24} />}
       </div>
 
       <div className={styles.moblieMenu} style={{ width: !navOpen && "0" }}>

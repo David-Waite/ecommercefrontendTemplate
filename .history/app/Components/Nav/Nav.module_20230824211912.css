@@ -43,23 +43,18 @@
   flex-direction: column;
   width: 400px;
   left: 0;
-  top: 113px;
-  z-index: 2;
+  top: 1103px;
+
   height: 100vh;
   transition: 0.3s;
   overflow: hidden;
-  background-color: white;
-}
-
-.toggleMenuIcon {
-  cursor: pointer;
+  background-color: green;
 }
 .moblieMenu a {
   padding: 16px 32px;
 }
 
-.moblieMenu a:hover,
-.selectedStyle {
+.moblieMenu a:hover {
   background-color: var(--hoverGrey);
 }
 .menu,

@@ -15,7 +15,7 @@
 }
 
 .heroImage h1 {
-  padding: 0px 16px;
+  padding: 16px 0;
   font-size: var(--fontPlus3);
   font-weight: 400;
   color: white;

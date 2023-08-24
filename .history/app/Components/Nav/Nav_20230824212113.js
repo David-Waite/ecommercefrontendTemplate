@@ -14,25 +14,15 @@ export default function Nav({ navOpen, toggleMenu }) {
 
   return (
     <nav className={styles.nav}>
+      {pathname}
       <div className={styles.menu} onClick={toggleMenu}>
-        {!navOpen && (
-          <PiListLight fontSize={24} className={styles.toggleMenuIcon} />
-        )}
-        {navOpen && (
-          <PiXLight fontSize={24} className={styles.toggleMenuIcon} />
-        )}
+        {!navOpen && <PiListLight fontSize={24} />}
+        {navOpen && <PiXLight fontSize={24} />}
       </div>
 
       <div className={styles.moblieMenu} style={{ width: !navOpen && "0" }}>
-        <Link href="/" className={pathname === "/" && styles.selectedStyle}>
-          Home
-        </Link>
-        <Link
-          href="/catalog"
-          className={pathname === "/catalog" && styles.selectedStyle}
-        >
-          Catalog
-        </Link>
+        <Link href="/">Home</Link>
+        <Link href="/catalog">Catalog</Link>
       </div>
       <div className={styles.linksContainer}>
         <Link className={styles.logo} href="/">
@@ -45,10 +35,10 @@ export default function Nav({ navOpen, toggleMenu }) {
       </div>
       <div className={styles.iconsContainer}>
         <Link href="#">
-          <PiMagnifyingGlassLight fontSize={26} />
+          <PiMagnifyingGlassLight fontSize={26} className={styles.iconLink} />
         </Link>
         <Link href="/cart">
-          <PiBag fontSize={26} />
+          <PiBag fontSize={26} className={styles.iconLink} />
         </Link>
       </div>
     </nav>

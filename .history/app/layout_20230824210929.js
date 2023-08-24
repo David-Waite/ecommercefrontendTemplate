@@ -14,28 +14,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const [navOpen, setNavOpen] = useState(false);
-  function handleMenuOpen() {
-    setNavOpen((prev) => !prev);
-  }
-
-  function handleBodyClick() {
-    if (navOpen) {
-      setNavOpen(false);
-    }
-  }
-
-  const noScrollStyle = {
-    overflow: navOpen && "hidden",
-  };
+  function handleMenuOpen() {}
 
   return (
     <html lang="en">
-      <body
-        className={inter.className}
-        style={noScrollStyle}
-        onClick={handleBodyClick}
-      >
-        <Nav navOpen={navOpen} toggleMenu={handleMenuOpen} />
+      <body className={inter.className}>
+        <Nav />
         {children}
         <Footer />
       </body>

@@ -50,14 +50,13 @@
   overflow: hidden;
   background-color: white;
 }
-
-.toggleMenuIcon {
-  cursor: pointer;
-}
 .moblieMenu a {
   padding: 16px 32px;
 }
 
+.iconLink {
+  background-color: green;
+}
 .moblieMenu a:hover,
 .selectedStyle {
   background-color: var(--hoverGrey);

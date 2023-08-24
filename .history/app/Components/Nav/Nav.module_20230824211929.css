@@ -48,18 +48,13 @@
   height: 100vh;
   transition: 0.3s;
   overflow: hidden;
-  background-color: white;
-}
-
-.toggleMenuIcon {
-  cursor: pointer;
+  background-color: green;
 }
 .moblieMenu a {
   padding: 16px 32px;
 }
 
-.moblieMenu a:hover,
-.selectedStyle {
+.moblieMenu a:hover {
   background-color: var(--hoverGrey);
 }
 .menu,
